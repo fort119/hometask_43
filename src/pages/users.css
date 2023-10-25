@@ -1,0 +1,49 @@
+
+a{
+  text-decoration: none;
+  color: burlywood;
+}
+
+a:hover{
+  text-decoration: none;
+  color: brown;
+}
+
+a:active{
+  text-decoration: none;
+  color: rgb(88, 11, 11);
+}
+
+.user-name:visited{
+ text-decoration: none;
+}
+.navigation{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.users-item{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: rgb(76, 104, 129);
+  border-radius: 20px;
+  text-align: center;
+  width: 180px;
+  justify-content: space-between
+}
+
+.user-name {
+  padding: 5px;
+  background-color: rgb(59, 51, 41);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.user-span{
+  color: rgb(146, 31, 31);
+  font-weight: 500;
+}
